@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+    font-family: 'Cairo';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+section.top-page {
+    background: url("../images/bg leafs.jpg");
+    background-size: cover;
+    height: 10vh;
+    padding: 20px;
+}
+
+.trans-box {
+    position: relative;
+    height: 135vh;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    /* background-color: rgba(128, 0, 128, 0.434); */
+}
+
+.big-title {
+    position: absolute;
+    width: 730px;
+    justify-content: end;
+    font-weight: 600;
+    left: 0%;
+    font-size: 200px;
+    margin-top: 0%; margin-left: 0%;
+    transition: transform 1s ease-in-out;
+    /* background-color: rgba(0, 128, 0, 0.441); */
+}
+
+.trans-box:hover .big-title {
+    color: black;
+    transform: translateX(10%)
+    
+}
+
+.project1 p {
+    position: absolute;
+    color: black;
+    margin-top: 440px;
+    margin-left: 36%;
+    font-size: 40px;
+    font-weight: 600;
+    transition: transform 1s ease-in-out;
+    /* background-color: rgba(0, 255, 255, 0.415); */
+}
+
+.project1 img {
+    margin-top: 560px;
+    padding-left: 27%;
+    padding-right: 27%;
+    height: 350px;
+    width: auto;
+    /* background-color: blueviolet; */
+}
+
+.trans-box:hover .project1 p {
+    color: black;
+    transform: translateX(10%)
+}
+
+.trans-box2 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 60%;
+    margin-left: 0%;
+    /* background-color: rgba(0, 255, 76, 0.423); */
+}
+
+.character img {
+    margin-top: 60px;
+    height: 200px;
+    width: auto;
+    margin-left: 21%;
+    transition: transform 1s ease-in-out;
+
+}
+
+.character p {
+    position: absolute;
+    color: black;
+    margin-top: 0px;
+    margin-left: 15%;
+    font-size: 40px;
+    font-weight: 600;
+    transition: transform 1s ease-in-out;
+}
+
+.trans-box2:hover .character p {
+    color: black;
+    transform: translateX(10%)
+    
+}
+
+.trans-box2:hover .character img {
+    color: black;
+    transform: translateX(-10%)
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
